@@ -7,11 +7,12 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
 
 type
-  TForm1 = class(TForm)
+  TF_inicial = class(TForm)
     lb_hello_world: TLabel;
     btn_teste_button: TButton;
     btn_abre_avisos: TSpeedButton;
     txt_testo_aviso: TEdit;
+    procedure btn_abre_avisosClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -19,10 +20,19 @@ type
   end;
 
 var
-  Form1: TForm1;
+  F_inicial: TF_inicial;
 
 implementation
 
 {$R *.dfm}
+
+procedure TF_inicial.btn_abre_avisosClick(Sender: TObject);
+begin
+
+  txt_testo_aviso.Text := 'curso de delphi';
+  lb_hello_world.Visible := True;
+
+
+end;
 
 end.
