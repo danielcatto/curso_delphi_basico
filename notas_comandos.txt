@@ -16,4 +16,9 @@ VARIAVEIS
     CURRENCY := 100.00; mais de 50 digitos moeda;
     BOOLEAN := VERDADE OU FALSO;
 
-    
+AULA 12
+conversão de tipos de string para Int | somar dois campos de texto 
+   StrToInt(<variavel_string)
+   criar um somador com dois campos string 
+	propriedade do campo texto
+          NumbersOnly
