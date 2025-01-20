@@ -2,3 +2,18 @@ aula 8
     organização do condigo fonte e explicação de cada sessão do arquivo Unit
         unit | uses | type - private - public | var | 
 	
+aula 9
+procedure btn_abre_avisos
+    setar componetes e proprieadade visible
+
+aula 10
+ALGUNS TIPODE DE VARIAVEIS
+VARIAVEIS
+    STRING := 'Hello world';
+    INTEGER := 1000;
+    REAL := 10.00;  Ponto flutuante para monetarios
+    DOUBLE := 10.00; ponto flutuante
+    CURRENCY := 100.00; mais de 50 digitos moeda;
+    BOOLEAN := VERDADE OU FALSO;
+
+    
