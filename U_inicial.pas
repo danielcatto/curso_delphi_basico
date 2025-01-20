@@ -52,7 +52,22 @@ begin
 
   txt_resultado.Text := IntToStr(res);
 
-end;
+  //verifica valores retornados
+    if (res > 600) then
+    begin
+      ShowMessage(IntToStr(res) + ' é valor maior que 600');
+    end
+    else if (res = 600) then
+    begin
+      ShowMessage(IntToStr(res) + ' é exatamente 600');
+    end
+    else
+    begin
+      ShowMessage(IntToStr(res) + ' é valor menor que 600');
+    end;
+
+
+  end;
 
 procedure TF_inicial.btn_teste_buttonClick(Sender: TObject);
 var
@@ -64,6 +79,8 @@ begin
   aviso3 := 'Texto variavel aviso3';
 
   txt_testo_aviso.Text := aviso + ', '  + aviso2 + ', ' + aviso3;
+
+
 
 end;
 

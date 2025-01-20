@@ -1,3 +1,7 @@
+fonte
+	https://www.youtube.com/watch?v=EX8rzLCCwJM&list=PLq-sApY8QuyfPBEkDQMNEVjWv4xWmWRf-&index=12
+
+
 aula 8
     organização do condigo fonte e explicação de cada sessão do arquivo Unit
         unit | uses | type - private - public | var | 
@@ -22,3 +26,26 @@ conversão de tipos de string para Int | somar dois campos de texto
    criar um somador com dois campos string 
 	propriedade do campo texto
           NumbersOnly
+
+
+AULA 15
+  operadores de comparação
+    = IGUAL
+    >        MAIOR QUE 
+    < MENOR QUE
+    <> DIFERENTE DE
+    AND "E"
+    OR  "OU"
+    NOT "NEGAÇÃO, NÃO"
+  
+  IF / ELSE
+    if x > 10 Then
+    begin
+      showMessage("valor " + intToStr(X), + "é maior que 10");
+    end
+    Else
+    Begin
+	showMessage('é menor');
+    end;
+      
+    
