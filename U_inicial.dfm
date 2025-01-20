@@ -11,9 +11,8 @@ object Form1: TForm1
   Font.Height = -24
   Font.Name = 'Segoe UI'
   Font.Style = []
-  WindowState = wsMaximized
   TextHeight = 32
-  object Label1: TLabel
+  object lb_hello_world: TLabel
     Left = 256
     Top = 40
     Width = 252
@@ -27,19 +26,26 @@ object Form1: TForm1
     ParentFont = False
     Visible = False
   end
-  object SpeedButton1: TSpeedButton
-    Left = 184
-    Top = 144
+  object btn_abre_avisos: TSpeedButton
+    Left = 202
+    Top = 250
     Width = 164
     Height = 41
-    Caption = 'Speed Button'
+    Caption = 'Abre Avisos'
   end
-  object Button1: TButton
-    Left = 40
-    Top = 136
-    Width = 89
-    Height = 49
-    Caption = 'Button1'
+  object btn_teste_button: TButton
+    Left = 47
+    Top = 250
+    Width = 149
+    Height = 41
+    Caption = 'teste button'
     TabOrder = 0
+  end
+  object txt_testo_aviso: TEdit
+    Left = 47
+    Top = 204
+    Width = 319
+    Height = 40
+    TabOrder = 1
   end
 end

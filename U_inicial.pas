@@ -8,9 +8,10 @@ uses
 
 type
   TForm1 = class(TForm)
-    Label1: TLabel;
-    Button1: TButton;
-    SpeedButton1: TSpeedButton;
+    lb_hello_world: TLabel;
+    btn_teste_button: TButton;
+    btn_abre_avisos: TSpeedButton;
+    txt_testo_aviso: TEdit;
   private
     { Private declarations }
   public
